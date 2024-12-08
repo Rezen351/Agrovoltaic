@@ -16488,14 +16488,14 @@ Grid 5.00 mm&lt;p&gt;
 </net>
 <net name="OUT1+" class="0">
 <segment>
-<pinref part="XOUTPUT" gate="-4" pin="KL"/>
-<wire x1="162.56" y1="-45.72" x2="157.48" y2="-45.72" width="0.1524" layer="91" grouprefs="IO"/>
-<label x="157.48" y="-45.72" size="1.778" layer="95" grouprefs="IO"/>
-</segment>
-<segment>
 <pinref part="OK4" gate="A" pin="EMIT"/>
 <wire x1="-104.14" y1="71.12" x2="-99.06" y2="71.12" width="0.1524" layer="91"/>
 <label x="-99.06" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="XOUTPUT" gate="-1" pin="KL"/>
+<wire x1="162.56" y1="-60.96" x2="157.48" y2="-60.96" width="0.1524" layer="91" grouprefs="IO"/>
+<label x="157.48" y="-60.96" size="1.778" layer="95" grouprefs="IO"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -17090,38 +17090,38 @@ Grid 5.00 mm&lt;p&gt;
 </net>
 <net name="OUT2+" class="0">
 <segment>
-<pinref part="XOUTPUT" gate="-3" pin="KL"/>
-<wire x1="162.56" y1="-50.8" x2="157.48" y2="-50.8" width="0.1524" layer="91" grouprefs="IO"/>
-<label x="157.48" y="-50.8" size="1.778" layer="95" grouprefs="IO"/>
-</segment>
-<segment>
 <pinref part="OK8" gate="A" pin="EMIT"/>
 <wire x1="-101.6" y1="20.32" x2="-96.52" y2="20.32" width="0.1524" layer="91" grouprefs="OUT"/>
 <label x="-96.52" y="20.32" size="1.778" layer="95" grouprefs="OUT"/>
 </segment>
-</net>
-<net name="OUT3+" class="0">
 <segment>
 <pinref part="XOUTPUT" gate="-2" pin="KL"/>
 <wire x1="162.56" y1="-55.88" x2="157.48" y2="-55.88" width="0.1524" layer="91" grouprefs="IO"/>
 <label x="157.48" y="-55.88" size="1.778" layer="95" grouprefs="IO"/>
 </segment>
+</net>
+<net name="OUT3+" class="0">
 <segment>
 <pinref part="OK9" gate="A" pin="EMIT"/>
 <wire x1="-101.6" y1="-27.94" x2="-96.52" y2="-27.94" width="0.1524" layer="91" grouprefs="OUT"/>
 <label x="-96.52" y="-27.94" size="1.778" layer="95" grouprefs="OUT"/>
 </segment>
+<segment>
+<pinref part="XOUTPUT" gate="-3" pin="KL"/>
+<wire x1="162.56" y1="-50.8" x2="157.48" y2="-50.8" width="0.1524" layer="91" grouprefs="IO"/>
+<label x="157.48" y="-50.8" size="1.778" layer="95" grouprefs="IO"/>
+</segment>
 </net>
 <net name="OUT4+" class="0">
-<segment>
-<pinref part="XOUTPUT" gate="-1" pin="KL"/>
-<wire x1="162.56" y1="-60.96" x2="157.48" y2="-60.96" width="0.1524" layer="91" grouprefs="IO"/>
-<label x="157.48" y="-60.96" size="1.778" layer="95" grouprefs="IO"/>
-</segment>
 <segment>
 <pinref part="OK10" gate="A" pin="EMIT"/>
 <wire x1="-101.6" y1="-78.74" x2="-96.52" y2="-78.74" width="0.1524" layer="91" grouprefs="OUT"/>
 <label x="-96.52" y="-78.74" size="1.778" layer="95" grouprefs="OUT"/>
+</segment>
+<segment>
+<pinref part="XOUTPUT" gate="-4" pin="KL"/>
+<wire x1="162.56" y1="-45.72" x2="157.48" y2="-45.72" width="0.1524" layer="91" grouprefs="IO"/>
+<label x="157.48" y="-45.72" size="1.778" layer="95" grouprefs="IO"/>
 </segment>
 </net>
 <net name="N$29" class="0">

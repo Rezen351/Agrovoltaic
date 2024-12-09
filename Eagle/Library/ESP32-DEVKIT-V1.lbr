@@ -1,11 +1,13 @@
-<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
-<eagle version="7.1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -97,36 +99,36 @@
 <wire x1="14.48" y1="25.725" x2="-14.53" y2="25.725" width="0.05" layer="39"/>
 <text x="-14.53" y="26.725" size="1.27" layer="25">&gt;NAME</text>
 <text x="-14.53" y="-26.725" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<pad name="1" x="-12.7" y="15.515" drill="1.02" diameter="2" shape="square"/>
-<pad name="2" x="-12.7" y="12.975" drill="1.02" diameter="2"/>
-<pad name="3" x="-12.7" y="10.435" drill="1.02" diameter="2"/>
-<pad name="4" x="-12.7" y="7.895" drill="1.02" diameter="2"/>
-<pad name="5" x="-12.7" y="5.355" drill="1.02" diameter="2"/>
-<pad name="6" x="-12.7" y="2.815" drill="1.02" diameter="2"/>
-<pad name="7" x="-12.7" y="0.275" drill="1.02" diameter="2"/>
-<pad name="8" x="-12.7" y="-2.265" drill="1.02" diameter="2"/>
-<pad name="9" x="-12.7" y="-4.805" drill="1.02" diameter="2"/>
-<pad name="10" x="-12.7" y="-7.345" drill="1.02" diameter="2"/>
-<pad name="11" x="-12.7" y="-9.885" drill="1.02" diameter="2"/>
-<pad name="12" x="-12.7" y="-12.425" drill="1.02" diameter="2"/>
-<pad name="13" x="-12.7" y="-14.965" drill="1.02" diameter="2"/>
-<pad name="14" x="-12.7" y="-17.505" drill="1.02" diameter="2"/>
-<pad name="15" x="-12.7" y="-20.045" drill="1.02" diameter="2"/>
-<pad name="30" x="12.7" y="15.515" drill="1.02" diameter="2"/>
-<pad name="29" x="12.7" y="12.975" drill="1.02" diameter="2"/>
-<pad name="28" x="12.7" y="10.435" drill="1.02" diameter="2"/>
-<pad name="27" x="12.7" y="7.895" drill="1.02" diameter="2"/>
-<pad name="26" x="12.7" y="5.355" drill="1.02" diameter="2"/>
-<pad name="25" x="12.7" y="2.815" drill="1.02" diameter="2"/>
-<pad name="24" x="12.7" y="0.275" drill="1.02" diameter="2"/>
-<pad name="23" x="12.7" y="-2.265" drill="1.02" diameter="2"/>
-<pad name="22" x="12.7" y="-4.805" drill="1.02" diameter="2"/>
-<pad name="21" x="12.7" y="-7.345" drill="1.02" diameter="2"/>
-<pad name="20" x="12.7" y="-9.885" drill="1.02" diameter="2"/>
-<pad name="19" x="12.7" y="-12.425" drill="1.02" diameter="2"/>
-<pad name="18" x="12.7" y="-14.965" drill="1.02" diameter="2"/>
-<pad name="17" x="12.7" y="-17.505" drill="1.02" diameter="2"/>
-<pad name="16" x="12.7" y="-20.045" drill="1.02" diameter="2"/>
+<pad name="1" x="-12.7" y="15.515" drill="1.02" diameter="2" shape="long"/>
+<pad name="2" x="-12.7" y="12.975" drill="1.02" diameter="2" shape="long"/>
+<pad name="3" x="-12.7" y="10.435" drill="1.02" diameter="2" shape="long"/>
+<pad name="4" x="-12.7" y="7.895" drill="1.02" diameter="2" shape="long"/>
+<pad name="5" x="-12.7" y="5.355" drill="1.02" diameter="2" shape="long"/>
+<pad name="6" x="-12.7" y="2.815" drill="1.02" diameter="2" shape="long"/>
+<pad name="7" x="-12.7" y="0.275" drill="1.02" diameter="2" shape="long"/>
+<pad name="8" x="-12.7" y="-2.265" drill="1.02" diameter="2" shape="long"/>
+<pad name="9" x="-12.7" y="-4.805" drill="1.02" diameter="2" shape="long"/>
+<pad name="10" x="-12.7" y="-7.345" drill="1.02" diameter="2" shape="long"/>
+<pad name="11" x="-12.7" y="-9.885" drill="1.02" diameter="2" shape="long"/>
+<pad name="12" x="-12.7" y="-12.425" drill="1.02" diameter="2" shape="long"/>
+<pad name="13" x="-12.7" y="-14.965" drill="1.02" diameter="2" shape="long"/>
+<pad name="14" x="-12.7" y="-17.505" drill="1.02" diameter="2" shape="long"/>
+<pad name="15" x="-12.7" y="-20.045" drill="1.02" diameter="2" shape="long"/>
+<pad name="30" x="12.7" y="15.515" drill="1.02" diameter="2" shape="long"/>
+<pad name="29" x="12.7" y="12.975" drill="1.02" diameter="2" shape="long"/>
+<pad name="28" x="12.7" y="10.435" drill="1.02" diameter="2" shape="long"/>
+<pad name="27" x="12.7" y="7.895" drill="1.02" diameter="2" shape="long"/>
+<pad name="26" x="12.7" y="5.355" drill="1.02" diameter="2" shape="long"/>
+<pad name="25" x="12.7" y="2.815" drill="1.02" diameter="2" shape="long"/>
+<pad name="24" x="12.7" y="0.275" drill="1.02" diameter="2" shape="long"/>
+<pad name="23" x="12.7" y="-2.265" drill="1.02" diameter="2" shape="long"/>
+<pad name="22" x="12.7" y="-4.805" drill="1.02" diameter="2" shape="long"/>
+<pad name="21" x="12.7" y="-7.345" drill="1.02" diameter="2" shape="long"/>
+<pad name="20" x="12.7" y="-9.885" drill="1.02" diameter="2" shape="long"/>
+<pad name="19" x="12.7" y="-12.425" drill="1.02" diameter="2" shape="long"/>
+<pad name="18" x="12.7" y="-14.965" drill="1.02" diameter="2" shape="long"/>
+<pad name="17" x="12.7" y="-17.505" drill="1.02" diameter="2" shape="long"/>
+<pad name="16" x="12.7" y="-20.045" drill="1.02" diameter="2" shape="long"/>
 <hole x="-12.28" y="-23.475" drill="3"/>
 <hole x="12.23" y="-23.475" drill="3"/>
 <hole x="12.23" y="23.475" drill="3"/>
@@ -213,18 +215,14 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="AVAILABILITY" value="Not in stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value="                                                      Dual core, Wi-Fi: 2.4 GHz up to 150 Mbits/s,BLE (Bluetooth Low Energy) and legacy Bluetooth, 32 bits, Up to 240 MHz                                              "/>
 <attribute name="MF" value="Do it"/>
-<attribute name="Description" value="
-                        
-                            Dual core, Wi-Fi: 2.4 GHz up to 150 Mbits/s,BLE (Bluetooth Low Energy) and legacy Bluetooth, 32 bits, Up to 240 MHz
-                        
-                    "/>
-<attribute name="Package" value="None"/>
-<attribute name="Price" value="None"/>
-<attribute name="SnapEDA_Link" value="https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=snap"/>
 <attribute name="MP" value="ESP32-DEVKIT-V1"/>
-<attribute name="Availability" value="Not in stock"/>
-<attribute name="Check_prices" value="https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=eda"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=snap"/>
 </technology>
 </technologies>
 </device>

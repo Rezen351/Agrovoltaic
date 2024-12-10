@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : E:/_Project/Agrovoltaic/Eagle/Agrovoltaic/MiniBoard.brd
+Job           : Z:/home/almuzky/Agrovoltaic/Agrovoltaic/Eagle/Agrovoltaic/MiniBoard.brd
 
-Start at      : 23:37:19 (12/9/2024)
-End at        : 23:37:23 (12/9/2024)
-Elapsed time  : 00:00:02
+Start at      : 17:15:44 (12/10/2024)
+End at        : 07:00:00 (1/1/1970)
+Elapsed time  : 00:00:00
 
-Signals       :    67   RoutingGrid: 25 mil  Layers: 2
-Connections   :   144   predefined:  99 ( 0 Vias )
+Signals       :    66   RoutingGrid: 24 mil  Layers: 2
+Connections   :   145   predefined:  39 ( 0 Vias )
 
-Router memory :   288200
+Router memory :   425780
 
-Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          : TopRouter
 
-Time per pass     :  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:01
-Number of Ripups  :         0        43         0         0         0         0
-max. Level        :         0         5         0         0         0         0
-max. Total        :         0        16         0         0         0         0
+Time per pass     :  00:00:00
+Number of Ripups  :         0
+max. Level        :         0
+max. Total        :         0
 
-Routed            :         2        45        45        45        45        45
-Vias              :         0       177        82        64        63        65
-Resolution        :    70.1 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :         0
+Vias              :         0
+Resolution        :    26.9 %
 
-Final             : 100.0% finished
+Final             : 26.9% finished

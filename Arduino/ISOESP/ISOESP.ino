@@ -7,53 +7,27 @@
 #define RR1 15
 #define RR2 2
 #define BAUD 9600
+#define Tpin 25
+
+//MOSI, MISO, 23, 19
+//SCL, SDA, 22, 21
+//RX0,TX0, 3, 1, 
+//RX2.TX2, 16, 17 
 
 void setup() {
   Serial.begin(BAUD);
-
-  // Konfigurasi pin sebagai input atau output
-  pinMode(A1, INPUT);
-  pinMode(A2, INPUT);
-  pinMode(S1, INPUT);
-  pinMode(S2, INPUT);
-  pinMode(R1, OUTPUT);
-  pinMode(R2, OUTPUT);
-  pinMode(RR1, OUTPUT);
-  pinMode(RR2, OUTPUT);
-
-  // Inisialisasi output digital dalam keadaan LOW
-  digitalWrite(R1, LOW);
-  digitalWrite(R2, LOW);
-  digitalWrite(RR1, LOW);
-  digitalWrite(RR2, LOW);
-
-  Serial.println("System Ready!");
+  pinSetup();
+ 
 }
 
 void loop() {
-  // Membaca nilai analog dari A1 dan A2
-  int analogValueA1 = analogRead(A1);
-  int analogValueA2 = analogRead(A2);
+  readAnalog();
 
-  // Membaca status digital dari S1 dan S2
-  int digitalStateS1 = digitalRead(S1);
-  int digitalStateS2 = digitalRead(S2);
+  readDigital();
 
-  // Tampilkan nilai analog dan status digital pada Serial Monitor
-  Serial.print("A1: ");
-  Serial.print(analogValueA1);
-  Serial.print(" | A2: ");
-  Serial.print(analogValueA2);
-  Serial.print(" | S1: ");
-  Serial.print(digitalStateS1);
-  Serial.print(" | S2: ");
-  Serial.println(digitalStateS2);
+  printInput();
 
-  // Mengontrol output digital (contoh: flip status setiap loop)
-  digitalWrite(R1, !digitalRead(R1));
-  digitalWrite(R2, !digitalRead(R2));
-  digitalWrite(RR1, !digitalRead(RR1));
-  digitalWrite(RR2, !digitalRead(RR2));
+  writeOutput();
 
   // Tunggu 1 detik sebelum loop berikutnya
   delay(1000);

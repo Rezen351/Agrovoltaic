@@ -17387,38 +17387,110 @@ Source: www.kingbright.com</description>
 <part name="RLM35" library="rcl-ws" deviceset="R-EU_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1"/>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="PAD1" library="wirepad-ws" deviceset="WIREPAD" device="2,54/1,1" package3d_urn="urn:adsk.eagle:package:30836/1"/>
-<part name="PAD2" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD3" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD4" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD5" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD6" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD7" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD8" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD9" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD10" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD11" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD12" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD13" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD14" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD15" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD16" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD17" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD18" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD19" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD20" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD21" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD22" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD23" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD24" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD25" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD26" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD27" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD28" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD29" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD30" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD31" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
-<part name="PAD32" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1" value="WIREPAD1,6/0,9"/>
+<part name="PAD1" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD2" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD3" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD4" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD5" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD6" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD7" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD8" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD9" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD10" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD11" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD12" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD13" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD14" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD15" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD16" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD17" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD18" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD19" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD20" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD21" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD22" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD23" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD24" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD25" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD26" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD27" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD28" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD29" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD30" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD31" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD32" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD33" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD34" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD35" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD36" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD37" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD38" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD39" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD40" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD41" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD42" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD43" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD44" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD45" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD46" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD47" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD48" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD49" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD50" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD51" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD52" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD53" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD54" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD55" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD56" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD57" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD58" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD59" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD60" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD61" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD62" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD63" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD64" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD65" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD66" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD67" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD68" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD69" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD70" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD71" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD72" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD73" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD74" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD75" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD76" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD77" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD78" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD79" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD80" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD81" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD82" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD83" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD84" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD85" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD86" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD87" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD88" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD89" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD90" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD91" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD92" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD93" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD94" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD95" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD96" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD97" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD98" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD99" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD100" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD101" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD102" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD103" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD104" library="wirepad-ws" deviceset="WIREPAD" device="1,6/0,9" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -17838,42 +17910,110 @@ Source: www.kingbright.com</description>
 <instance part="SUPPLY13" gate="GND" x="182.88" y="109.22" smashed="yes">
 <attribute name="VALUE" x="180.975" y="106.045" size="1.778" layer="96"/>
 </instance>
-<instance part="PAD1" gate="G$1" x="132.08" y="124.46" smashed="yes" rot="R270">
-<attribute name="NAME" x="133.9342" y="125.603" size="1.778" layer="95" rot="R270"/>
-</instance>
-<instance part="PAD2" gate="G$1" x="190.5" y="124.46" smashed="yes" rot="R270">
-<attribute name="NAME" x="192.3542" y="125.603" size="1.778" layer="95" rot="R270"/>
-</instance>
-<instance part="PAD3" gate="G$1" x="157.48" y="93.98" smashed="yes" rot="R270"/>
-<instance part="PAD4" gate="G$1" x="154.94" y="93.98" smashed="yes" rot="R270"/>
-<instance part="PAD5" gate="G$1" x="139.7" y="93.98" smashed="yes" rot="R270"/>
-<instance part="PAD6" gate="G$1" x="142.24" y="93.98" smashed="yes" rot="R270"/>
-<instance part="PAD7" gate="G$1" x="144.78" y="93.98" smashed="yes" rot="R270"/>
-<instance part="PAD8" gate="G$1" x="147.32" y="93.98" smashed="yes" rot="R270"/>
-<instance part="PAD9" gate="G$1" x="149.86" y="93.98" smashed="yes" rot="R270"/>
-<instance part="PAD10" gate="G$1" x="152.4" y="93.98" smashed="yes" rot="R270"/>
-<instance part="PAD11" gate="G$1" x="175.26" y="200.66" smashed="yes" rot="R180"/>
-<instance part="PAD12" gate="G$1" x="175.26" y="198.12" smashed="yes" rot="R180"/>
-<instance part="PAD13" gate="G$1" x="175.26" y="195.58" smashed="yes" rot="R180"/>
-<instance part="PAD14" gate="G$1" x="175.26" y="193.04" smashed="yes" rot="R180"/>
-<instance part="PAD15" gate="G$1" x="175.26" y="190.5" smashed="yes" rot="R180"/>
-<instance part="PAD16" gate="G$1" x="175.26" y="187.96" smashed="yes" rot="R180"/>
-<instance part="PAD17" gate="G$1" x="175.26" y="185.42" smashed="yes" rot="R180"/>
-<instance part="PAD18" gate="G$1" x="175.26" y="182.88" smashed="yes" rot="R180"/>
-<instance part="PAD19" gate="G$1" x="175.26" y="180.34" smashed="yes" rot="R180"/>
-<instance part="PAD20" gate="G$1" x="175.26" y="177.8" smashed="yes" rot="R180"/>
-<instance part="PAD21" gate="G$1" x="175.26" y="175.26" smashed="yes" rot="R180"/>
-<instance part="PAD22" gate="G$1" x="175.26" y="172.72" smashed="yes" rot="R180"/>
-<instance part="PAD23" gate="G$1" x="175.26" y="170.18" smashed="yes" rot="R180"/>
-<instance part="PAD24" gate="G$1" x="175.26" y="167.64" smashed="yes" rot="R180"/>
-<instance part="PAD25" gate="G$1" x="175.26" y="165.1" smashed="yes" rot="R180"/>
-<instance part="PAD26" gate="G$1" x="175.26" y="162.56" smashed="yes" rot="R180"/>
-<instance part="PAD27" gate="G$1" x="175.26" y="160.02" smashed="yes" rot="R180"/>
-<instance part="PAD28" gate="G$1" x="175.26" y="157.48" smashed="yes" rot="R180"/>
-<instance part="PAD29" gate="G$1" x="175.26" y="154.94" smashed="yes" rot="R180"/>
-<instance part="PAD30" gate="G$1" x="175.26" y="152.4" smashed="yes" rot="R180"/>
-<instance part="PAD31" gate="G$1" x="175.26" y="149.86" smashed="yes" rot="R180"/>
-<instance part="PAD32" gate="G$1" x="175.26" y="147.32" smashed="yes" rot="R180"/>
+<instance part="PAD1" gate="G$1" x="162.56" y="205.74" smashed="yes"/>
+<instance part="PAD2" gate="G$1" x="162.56" y="203.2" smashed="yes"/>
+<instance part="PAD3" gate="G$1" x="162.56" y="200.66" smashed="yes"/>
+<instance part="PAD4" gate="G$1" x="162.56" y="198.12" smashed="yes"/>
+<instance part="PAD5" gate="G$1" x="162.56" y="195.58" smashed="yes"/>
+<instance part="PAD6" gate="G$1" x="162.56" y="193.04" smashed="yes"/>
+<instance part="PAD7" gate="G$1" x="162.56" y="190.5" smashed="yes"/>
+<instance part="PAD8" gate="G$1" x="162.56" y="187.96" smashed="yes"/>
+<instance part="PAD9" gate="G$1" x="162.56" y="185.42" smashed="yes"/>
+<instance part="PAD10" gate="G$1" x="162.56" y="182.88" smashed="yes"/>
+<instance part="PAD11" gate="G$1" x="162.56" y="180.34" smashed="yes"/>
+<instance part="PAD12" gate="G$1" x="162.56" y="177.8" smashed="yes"/>
+<instance part="PAD13" gate="G$1" x="162.56" y="175.26" smashed="yes"/>
+<instance part="PAD14" gate="G$1" x="162.56" y="172.72" smashed="yes"/>
+<instance part="PAD15" gate="G$1" x="162.56" y="170.18" smashed="yes"/>
+<instance part="PAD16" gate="G$1" x="162.56" y="167.64" smashed="yes"/>
+<instance part="PAD17" gate="G$1" x="162.56" y="165.1" smashed="yes"/>
+<instance part="PAD18" gate="G$1" x="162.56" y="162.56" smashed="yes"/>
+<instance part="PAD19" gate="G$1" x="162.56" y="160.02" smashed="yes"/>
+<instance part="PAD20" gate="G$1" x="162.56" y="157.48" smashed="yes"/>
+<instance part="PAD21" gate="G$1" x="162.56" y="154.94" smashed="yes"/>
+<instance part="PAD22" gate="G$1" x="162.56" y="152.4" smashed="yes"/>
+<instance part="PAD23" gate="G$1" x="162.56" y="149.86" smashed="yes"/>
+<instance part="PAD24" gate="G$1" x="162.56" y="147.32" smashed="yes"/>
+<instance part="PAD25" gate="G$1" x="162.56" y="144.78" smashed="yes"/>
+<instance part="PAD26" gate="G$1" x="162.56" y="142.24" smashed="yes"/>
+<instance part="PAD27" gate="G$1" x="170.18" y="205.74" smashed="yes"/>
+<instance part="PAD28" gate="G$1" x="170.18" y="203.2" smashed="yes"/>
+<instance part="PAD29" gate="G$1" x="170.18" y="200.66" smashed="yes"/>
+<instance part="PAD30" gate="G$1" x="170.18" y="198.12" smashed="yes"/>
+<instance part="PAD31" gate="G$1" x="170.18" y="195.58" smashed="yes"/>
+<instance part="PAD32" gate="G$1" x="170.18" y="193.04" smashed="yes"/>
+<instance part="PAD33" gate="G$1" x="170.18" y="190.5" smashed="yes"/>
+<instance part="PAD34" gate="G$1" x="170.18" y="187.96" smashed="yes"/>
+<instance part="PAD35" gate="G$1" x="170.18" y="185.42" smashed="yes"/>
+<instance part="PAD36" gate="G$1" x="170.18" y="182.88" smashed="yes"/>
+<instance part="PAD37" gate="G$1" x="170.18" y="180.34" smashed="yes"/>
+<instance part="PAD38" gate="G$1" x="170.18" y="177.8" smashed="yes"/>
+<instance part="PAD39" gate="G$1" x="170.18" y="175.26" smashed="yes"/>
+<instance part="PAD40" gate="G$1" x="170.18" y="172.72" smashed="yes"/>
+<instance part="PAD41" gate="G$1" x="170.18" y="170.18" smashed="yes"/>
+<instance part="PAD42" gate="G$1" x="170.18" y="167.64" smashed="yes"/>
+<instance part="PAD43" gate="G$1" x="170.18" y="165.1" smashed="yes"/>
+<instance part="PAD44" gate="G$1" x="170.18" y="162.56" smashed="yes"/>
+<instance part="PAD45" gate="G$1" x="170.18" y="160.02" smashed="yes"/>
+<instance part="PAD46" gate="G$1" x="170.18" y="157.48" smashed="yes"/>
+<instance part="PAD47" gate="G$1" x="170.18" y="154.94" smashed="yes"/>
+<instance part="PAD48" gate="G$1" x="170.18" y="152.4" smashed="yes"/>
+<instance part="PAD49" gate="G$1" x="170.18" y="149.86" smashed="yes"/>
+<instance part="PAD50" gate="G$1" x="170.18" y="147.32" smashed="yes"/>
+<instance part="PAD51" gate="G$1" x="170.18" y="144.78" smashed="yes"/>
+<instance part="PAD52" gate="G$1" x="170.18" y="142.24" smashed="yes"/>
+<instance part="PAD53" gate="G$1" x="177.8" y="205.74" smashed="yes"/>
+<instance part="PAD54" gate="G$1" x="177.8" y="203.2" smashed="yes"/>
+<instance part="PAD55" gate="G$1" x="177.8" y="200.66" smashed="yes"/>
+<instance part="PAD56" gate="G$1" x="177.8" y="198.12" smashed="yes"/>
+<instance part="PAD57" gate="G$1" x="177.8" y="195.58" smashed="yes"/>
+<instance part="PAD58" gate="G$1" x="177.8" y="193.04" smashed="yes"/>
+<instance part="PAD59" gate="G$1" x="177.8" y="190.5" smashed="yes"/>
+<instance part="PAD60" gate="G$1" x="177.8" y="187.96" smashed="yes"/>
+<instance part="PAD61" gate="G$1" x="177.8" y="185.42" smashed="yes"/>
+<instance part="PAD62" gate="G$1" x="177.8" y="182.88" smashed="yes"/>
+<instance part="PAD63" gate="G$1" x="177.8" y="180.34" smashed="yes"/>
+<instance part="PAD64" gate="G$1" x="177.8" y="177.8" smashed="yes"/>
+<instance part="PAD65" gate="G$1" x="177.8" y="175.26" smashed="yes"/>
+<instance part="PAD66" gate="G$1" x="177.8" y="172.72" smashed="yes"/>
+<instance part="PAD67" gate="G$1" x="177.8" y="170.18" smashed="yes"/>
+<instance part="PAD68" gate="G$1" x="177.8" y="167.64" smashed="yes"/>
+<instance part="PAD69" gate="G$1" x="177.8" y="165.1" smashed="yes"/>
+<instance part="PAD70" gate="G$1" x="177.8" y="162.56" smashed="yes"/>
+<instance part="PAD71" gate="G$1" x="177.8" y="160.02" smashed="yes"/>
+<instance part="PAD72" gate="G$1" x="177.8" y="157.48" smashed="yes"/>
+<instance part="PAD73" gate="G$1" x="177.8" y="154.94" smashed="yes"/>
+<instance part="PAD74" gate="G$1" x="177.8" y="152.4" smashed="yes"/>
+<instance part="PAD75" gate="G$1" x="177.8" y="149.86" smashed="yes"/>
+<instance part="PAD76" gate="G$1" x="177.8" y="147.32" smashed="yes"/>
+<instance part="PAD77" gate="G$1" x="177.8" y="144.78" smashed="yes"/>
+<instance part="PAD78" gate="G$1" x="177.8" y="142.24" smashed="yes"/>
+<instance part="PAD79" gate="G$1" x="185.42" y="205.74" smashed="yes"/>
+<instance part="PAD80" gate="G$1" x="185.42" y="203.2" smashed="yes"/>
+<instance part="PAD81" gate="G$1" x="185.42" y="200.66" smashed="yes"/>
+<instance part="PAD82" gate="G$1" x="185.42" y="198.12" smashed="yes"/>
+<instance part="PAD83" gate="G$1" x="185.42" y="195.58" smashed="yes"/>
+<instance part="PAD84" gate="G$1" x="185.42" y="193.04" smashed="yes"/>
+<instance part="PAD85" gate="G$1" x="185.42" y="190.5" smashed="yes"/>
+<instance part="PAD86" gate="G$1" x="185.42" y="187.96" smashed="yes"/>
+<instance part="PAD87" gate="G$1" x="185.42" y="185.42" smashed="yes"/>
+<instance part="PAD88" gate="G$1" x="185.42" y="182.88" smashed="yes"/>
+<instance part="PAD89" gate="G$1" x="185.42" y="180.34" smashed="yes"/>
+<instance part="PAD90" gate="G$1" x="185.42" y="177.8" smashed="yes"/>
+<instance part="PAD91" gate="G$1" x="185.42" y="175.26" smashed="yes"/>
+<instance part="PAD92" gate="G$1" x="185.42" y="172.72" smashed="yes"/>
+<instance part="PAD93" gate="G$1" x="185.42" y="170.18" smashed="yes"/>
+<instance part="PAD94" gate="G$1" x="185.42" y="167.64" smashed="yes"/>
+<instance part="PAD95" gate="G$1" x="185.42" y="165.1" smashed="yes"/>
+<instance part="PAD96" gate="G$1" x="185.42" y="162.56" smashed="yes"/>
+<instance part="PAD97" gate="G$1" x="185.42" y="160.02" smashed="yes"/>
+<instance part="PAD98" gate="G$1" x="185.42" y="157.48" smashed="yes"/>
+<instance part="PAD99" gate="G$1" x="185.42" y="154.94" smashed="yes"/>
+<instance part="PAD100" gate="G$1" x="185.42" y="152.4" smashed="yes"/>
+<instance part="PAD101" gate="G$1" x="185.42" y="149.86" smashed="yes"/>
+<instance part="PAD102" gate="G$1" x="185.42" y="147.32" smashed="yes"/>
+<instance part="PAD103" gate="G$1" x="185.42" y="144.78" smashed="yes"/>
+<instance part="PAD104" gate="G$1" x="185.42" y="142.24" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -17925,11 +18065,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="A1" gate="G$1" pin="+VS"/>
-<wire x1="137.16" y1="121.92" x2="132.08" y2="121.92" width="0.1524" layer="91"/>
 <label x="127" y="121.92" size="1.778" layer="95"/>
-<pinref part="PAD1" gate="G$1" pin="P"/>
-<wire x1="132.08" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
-<junction x="132.08" y="121.92"/>
+<wire x1="137.16" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -18314,7 +18451,6 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="154.94" y1="91.44" x2="154.94" y2="83.82" width="0.1524" layer="91" grouprefs="IO_ESP32"/>
 <label x="154.94" y="83.82" size="1.778" layer="95" rot="R90"/>
-<pinref part="PAD4" gate="G$1" pin="P"/>
 </segment>
 </net>
 <net name="VN" class="0">
@@ -18326,7 +18462,6 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="157.48" y1="91.44" x2="157.48" y2="83.82" width="0.1524" layer="91" grouprefs="IO_ESP32"/>
 <label x="157.48" y="83.82" size="1.778" layer="95" rot="R90"/>
-<pinref part="PAD3" gate="G$1" pin="P"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -18716,7 +18851,6 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="152.4" y1="91.44" x2="152.4" y2="83.82" width="0.1524" layer="91" grouprefs="IO_ESP32"/>
 <label x="152.4" y="83.82" size="1.778" layer="95" rot="R90"/>
-<pinref part="PAD10" gate="G$1" pin="P"/>
 </segment>
 </net>
 <net name="D25" class="0">
@@ -18728,15 +18862,12 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="149.86" y1="91.44" x2="149.86" y2="83.82" width="0.1524" layer="91" grouprefs="IO_ESP32"/>
 <label x="149.86" y="83.82" size="1.778" layer="95" rot="R90"/>
-<pinref part="PAD9" gate="G$1" pin="P"/>
 </segment>
 <segment>
 <pinref part="A1" gate="G$1" pin="VOUT"/>
 <wire x1="172.72" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="RLM35" gate="G$1" pin="2"/>
 <label x="175.26" y="121.92" size="1.778" layer="95"/>
-<pinref part="PAD2" gate="G$1" pin="P"/>
-<junction x="190.5" y="121.92"/>
 </segment>
 </net>
 <net name="TX2" class="0">
@@ -18760,7 +18891,6 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="139.7" y1="91.44" x2="139.7" y2="83.82" width="0.1524" layer="91" grouprefs="IO_ESP32"/>
 <label x="139.7" y="83.82" size="1.778" layer="95" rot="R90"/>
-<pinref part="PAD5" gate="G$1" pin="P"/>
 </segment>
 <segment>
 <pinref part="RA1" gate="G$1" pin="2"/>
@@ -18788,7 +18918,6 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="142.24" y1="91.44" x2="142.24" y2="83.82" width="0.1524" layer="91" grouprefs="IO_ESP32"/>
 <label x="142.24" y="83.82" size="1.778" layer="95" rot="R90"/>
-<pinref part="PAD6" gate="G$1" pin="P"/>
 </segment>
 </net>
 <net name="D12" class="0">
@@ -18800,7 +18929,6 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="144.78" y1="91.44" x2="144.78" y2="83.82" width="0.1524" layer="91" grouprefs="IO_ESP32"/>
 <label x="144.78" y="83.82" size="1.778" layer="95" rot="R90"/>
-<pinref part="PAD7" gate="G$1" pin="P"/>
 </segment>
 </net>
 <net name="D13" class="0">
@@ -18812,7 +18940,6 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="147.32" y1="91.44" x2="147.32" y2="83.82" width="0.1524" layer="91" grouprefs="IO_ESP32"/>
 <label x="147.32" y="83.82" size="1.778" layer="95" rot="R90"/>
-<pinref part="PAD8" gate="G$1" pin="P"/>
 </segment>
 </net>
 <net name="RX2" class="0">

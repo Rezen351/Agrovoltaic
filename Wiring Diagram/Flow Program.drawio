@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.7">
   <diagram name="Page-1" id="QYykY3pMjm5H_T9S81lt">
-    <mxGraphModel dx="1963" dy="1928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="1713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -197,6 +197,27 @@
         </mxCell>
         <mxCell id="L31MhltJ1lk3ZA7Ocww6-82" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="540" y="1770.5" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L31MhltJ1lk3ZA7Ocww6-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L31MhltJ1lk3ZA7Ocww6-83" target="L31MhltJ1lk3ZA7Ocww6-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L31MhltJ1lk3ZA7Ocww6-83" value="Server" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1319.93" y="1600" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L31MhltJ1lk3ZA7Ocww6-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L31MhltJ1lk3ZA7Ocww6-84" target="L31MhltJ1lk3ZA7Ocww6-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L31MhltJ1lk3ZA7Ocww6-84" value="ESP32" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="879.7900000000002" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L31MhltJ1lk3ZA7Ocww6-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L31MhltJ1lk3ZA7Ocww6-85" target="L31MhltJ1lk3ZA7Ocww6-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L31MhltJ1lk3ZA7Ocww6-85" value="ESP32 CAM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="879.7900000000002" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L31MhltJ1lk3ZA7Ocww6-90" value="Dasboard &amp;amp; Oled" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="1600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -7,7 +7,7 @@
 const char* ssid = "eduroam";
 #define EAP_IDENTITY "13322006@mahasiswa.itb.ac.id"
 #define EAP_USERNAME "13322006@mahasiswa.itb.ac.id"
-#define EAP_PASSWORD "Kyarajihan_152003"
+#define EAP_PASSWORD ""
 
 void wifi_setup() {
   delay(10);

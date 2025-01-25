@@ -1,34 +1,28 @@
-#define A1 32
-#define A2 33
-#define S1 34
-#define S2 35
-#define R1 27
-#define R2 26
-#define RR1 15
-#define RR2 2
-#define BAUD 9600
-#define Tpin 25
+#include "pin_setup.h"
+#include "input.h"
+#include "output.h"
+#include "sensor.h"
+#include "wifi_setup.h"
+#include "mqtt.h"
+#include "data.h"
 
-//MOSI, MISO, 23, 19
-//SCL, SDA, 22, 21
-//RX0,TX0, 3, 1, 
-//RX2.TX2, 16, 17 
+#define BAUD 115200
 
 void setup() {
   Serial.begin(BAUD);
   pinSetup();
+  wifi_setup();
+  sensor_setup();
+  mqtt_setup();
  
 }
 
 void loop() {
   readAnalog();
-
   readDigital();
-
-  printInput();
-
   writeOutput();
-
-  // Tunggu 1 detik sebelum loop berikutnya
+  sensor_loop();
+  mqtt_loop();
+  send_all_data();
   delay(1000);
 }

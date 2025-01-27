@@ -40,39 +40,6 @@ void sensor_loop() {
   // Baca data dari sensor 3
   humi3 = dht3.readHumidity();
   temp3 = dht3.readTemperature();
-
-  // Cek apakah data terbaca dengan benar
-  if (isnan(humi1) || isnan(temp1)) {
-    Serial.println("Sensor 1 tidak terbaca...");
-  } else {
-    Serial.print("Sensor 1 -> Suhu: ");
-    Serial.print(temp1);
-    Serial.print(" C, Kelembaban: ");
-    Serial.print(humi1);
-    Serial.println(" %RH");
-  }
-
-  if (isnan(humi2) || isnan(temp2)) {
-    Serial.println("Sensor 2 tidak terbaca...");
-  } else {
-    Serial.print("Sensor 2 -> Suhu: ");
-    Serial.print(temp2);
-    Serial.print(" C, Kelembaban: ");
-    Serial.print(humi2);
-    Serial.println(" %RH");
-  }
-
-  if (isnan(humi3) || isnan(temp3)) {
-    Serial.println("Sensor 3 tidak terbaca...");
-  } else {
-    Serial.print("Sensor 3 -> Suhu: ");
-    Serial.print(temp3);
-    Serial.print(" C, Kelembaban: ");
-    Serial.print(humi3);
-    Serial.println(" %RH");
-  }
-
-  Serial.println("---------------------------------");
 }
 
 #endif 

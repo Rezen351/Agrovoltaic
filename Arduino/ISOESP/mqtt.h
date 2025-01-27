@@ -5,7 +5,7 @@
 #include <PubSubClient.h>
 
 // MQTT Broker
-const char* mqtt_server = "broker.mqtt-dashboard.com";
+const char* mqtt_server = "broker.hivemq.com";
 const int mqtt_port = 1883;
 
 // Client untuk WIFI dan MQTT
@@ -22,7 +22,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
     message += (char)payload[i];
   }
 
-  // Serial.println(message);
+  Serial.println(message);
 
 }
 
@@ -32,7 +32,7 @@ void reconnect() {
     if (client.connect("ArduinoClient")) {
       Serial.println("Terhubung");
       // Subscribe ke topik yang diperlukan
-      client.subscribe("ISOESP1/data");
+      client.subscribe("ISOESP/receive");
     } else {
       Serial.print("Gagal, rc=");
       Serial.print(client.state());

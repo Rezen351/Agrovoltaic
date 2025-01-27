@@ -1,1 +1,6 @@
-***Struktur Database
+# Struktur Database
+|Tabel|Structure|
+|||
+|||
+|||
+|||

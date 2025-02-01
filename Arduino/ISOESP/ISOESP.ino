@@ -33,7 +33,7 @@ void taskCore1(void *pvParameters) {
     loadFromEEPROM();
     readAnalog();   // Membaca nilai analog
     readDigital();  // Membaca nilai digital
-    printInput();
+    // printInput();
     writeOutput();  // Menulis output
     sensor_setup();
     sensor_loop();  // Memproses data sensor

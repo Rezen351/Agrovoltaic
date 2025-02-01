@@ -1,3 +1,4 @@
+
 #ifndef SENSOR_H
 #define SENSOR_H
 
@@ -24,8 +25,6 @@ void sensor_setup() {
   dht1.begin();
   dht2.begin();
   dht3.begin();
-
-  Serial.println("Monitoring Suhu dan Kelembaban dengan 3 Sensor DHT11");
 }
 
 void sensor_loop() {
@@ -41,5 +40,4 @@ void sensor_loop() {
   humi3 = dht3.readHumidity();
   temp3 = dht3.readTemperature();
 }
-
-#endif 
+#endif

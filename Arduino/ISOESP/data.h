@@ -1,9 +1,11 @@
+
 #ifndef DATA_H
 #define DATA_H
 
 #include <ArduinoJson.h>
 #include <PubSubClient.h>
 #include <esp_task_wdt.h>
+#include "receivedata.h"
 
 // Deklarasi variabel eksternal
 extern float humi1, temp1, humi2, temp2, humi3, temp3;

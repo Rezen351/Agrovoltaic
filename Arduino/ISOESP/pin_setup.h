@@ -1,3 +1,4 @@
+
 #ifndef PIN_SETUP_H
 #define PIN_SETUP_H
 
@@ -31,7 +32,5 @@ void pinSetup(){
   digitalWrite(R2, LOW);
   digitalWrite(RR1, LOW);
   digitalWrite(RR2, LOW);
-
-  Serial.println("Pin Setup is Ready!");
  }
 #endif 

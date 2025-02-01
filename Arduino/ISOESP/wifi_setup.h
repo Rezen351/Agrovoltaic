@@ -1,3 +1,4 @@
+
 #ifndef WIFI_SETUP_H
 #define WIFI_SETUP_H
 
@@ -7,7 +8,7 @@
 const char* ssid = "eduroam";
 #define EAP_IDENTITY "13322006@mahasiswa.itb.ac.id"
 #define EAP_USERNAME "13322006@mahasiswa.itb.ac.id"
-#define EAP_PASSWORD ""
+#define EAP_PASSWORD "#"
 TaskHandle_t wifiTaskHandle;
 void wifiTask(void *pvParameters) {
   while (true) {

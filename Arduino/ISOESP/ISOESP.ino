@@ -1,4 +1,5 @@
 #include "pin_setup.h"
+#include "menu.h"
 #include "setting.h"
 #include "input.h"
 #include "output.h"
@@ -39,6 +40,7 @@ void taskCore1(void *pvParameters) {
     sensor_loop();  // Memproses data sensor
     String currentTime = String(hour()) + ":" + String(minute());
     calculateInterval(currentTime);
+    menu_loop();
   }
 }
 
@@ -47,6 +49,7 @@ void setup() {
   pinSetup();
   wifi_setup();
   eepromSetup();
+  menu_setup();
   // Menjalankan task pada core0
   xTaskCreatePinnedToCore(
     taskCore0,   // Nama fungsi untuk core0

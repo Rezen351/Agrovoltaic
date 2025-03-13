@@ -266,7 +266,7 @@ void drawSettings() {
 void handleButtonPress() {
     int analogButton = readButton();
     
-    if (analogButton > 1600 && analogButton < 2000) { // prev
+    if (analogButton > 1500 && analogButton < 2000) { // prev
         if (inSettings && settingsPage > 0) {
             settingsPage--;
         } else if (inSettings && settingsPage == 0) {
@@ -275,7 +275,7 @@ void handleButtonPress() {
             lastUpdate = millis();
         }
     } 
-    else if (analogButton > 1100 && analogButton <1300) { // down
+    else if (analogButton > 1000 && analogButton <1300) { // down
         if (inSettings) {
             switch(settingsPage) {
                 case 0: if (temp_intervalminON > 0) temp_intervalminON--; break;
@@ -303,7 +303,7 @@ void handleButtonPress() {
             }
         }
     } 
-    else if (analogButton > 700 && analogButton < 800) { // next
+    else if (analogButton > 590 && analogButton < 700) { // next
         if (!inSettings) {
             inSettings = true;
             settingsPage = 0;

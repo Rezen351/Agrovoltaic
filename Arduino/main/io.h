@@ -78,13 +78,11 @@ void readDHT(int channel){
 }
 
 void inaSetup(){
-// Try to initialize the INA219
-  if (! ina219.begin()) {
+  // Coba inisialisasi INA219
+  if (!ina219.begin()) {
     Serial.println("Failed to find INA219 chip");
-    while (1) { delay(10); }
+    return; // Keluar dari fungsi jika gagal
   }
-
-}
 
 
 void readIna219(){
@@ -95,12 +93,12 @@ void readIna219(){
 }
 
 void readInput() {
-  readMux();
+//  readMux();
 }
 
 // Switching
 void checkSwitch(){
-  String temp_source = "Battery";
+  String temp_source = "PSU";
 
   prefs.begin("data", true);
   String source = prefs.getString("source");
@@ -111,22 +109,19 @@ void checkSwitch(){
     if (busVoltage < 10){
       temp_source = "PSU";
       prefs.putString("source", temp_source);
-      setLED(1, true);
-      delay(1000);
+      setLED(1, false);
     } else {
 
     }
-  } else {
+  } else if (source == "PSU") {
     if (busVoltage > 12){
       temp_source = "Battery";
       prefs.putString("source", temp_source);
-      setLED(1, false);
-      delay(1000);
-  } else {
+      setLED(1, true);
+  } else if (busVoltage < 10) {
       temp_source = "PSU";
       prefs.putString("source", temp_source);
-      setLED(1, true);
-      delay(1000);
+      setLED(1, false);
   }
 
 }
@@ -190,14 +185,12 @@ void printArray() {
   for (int i = 0; i < 13; i++) {
     Serial.print(muxValues[i]);
     Serial.print(" ");
-    delay(500);
   }
   Serial.println(); // Pindah ke baris baru
-  }
+}
 
 // Menampilkan output ke Serial Monitor
 void writeOutput() {
-
   if (t % 2 == 0) {
   Serial.print("BUTTON VALUE: "); Serial.println(readButton());
   Serial.print("STATE: "); Serial.println(isON ? "ON" : "OFF");

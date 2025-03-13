@@ -15,6 +15,7 @@
 #define s2 14
 #define s3 27
 #define sig 26
+
 //BUTTON
 #define BUTTON 2
 //MOSI, MISO, 23, 19
@@ -30,6 +31,7 @@
 #define RX0 16
 #define TX0 17
 byte ledState = 0; // Variabel untuk menyimpan status LED
+
 void pinSetup(){
   //Register
   pinMode(latchReg, OUTPUT);
@@ -42,6 +44,8 @@ void pinSetup(){
   pinMode(s3, OUTPUT);
   pinMode(BUTTON, INPUT);
  }
+
+
 void setLED(int pin, bool state) {
   if (state) {
     ledState |= (1 << pin); // Menyalakan LED tertentu
@@ -52,4 +56,6 @@ void setLED(int pin, bool state) {
   shiftOut(dataReg, clockReg, MSBFIRST, ledState);
   digitalWrite(latchReg, HIGH);
 }
+
+
 #endif 

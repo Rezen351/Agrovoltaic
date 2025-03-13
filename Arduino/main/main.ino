@@ -32,6 +32,11 @@ void setup() {
   dhtSetup();
   menu_setup();
   inaSetup();
+  setupSensor();
+  wifi_setup();
+  mqtt_setup();
+  
+  
   // Menjalankan task pada core1
   xTaskCreatePinnedToCore(
     taskCore1,   // Nama fungsi untuk core1
@@ -57,4 +62,6 @@ void loop() {
   }
  readInput();
  menu_loop();
+ mqtt_loop();
+ 
 }

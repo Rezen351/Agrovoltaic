@@ -10,11 +10,11 @@
 #define dataReg 19
 
 //Multiplexer
-#define s0 13
-#define s1 12
-#define s2 14
-#define s3 27
-#define sig 26
+//#define s0 13
+//#define s1 12
+//#define s2 14
+//#define s3 27
+//#define sig 26
 
 //BUTTON
 #define BUTTON 2
@@ -38,10 +38,10 @@ void pinSetup(){
   pinMode(clockReg, OUTPUT);
   pinMode(dataReg, OUTPUT);
   //Multiplexer
-  pinMode(s0, OUTPUT);
-  pinMode(s1, OUTPUT);
-  pinMode(s2, OUTPUT);
-  pinMode(s3, OUTPUT);
+//  pinMode(s0, OUTPUT);
+//  pinMode(s1, OUTPUT);
+//  pinMode(s2, OUTPUT);
+//  pinMode(s3, OUTPUT);
   pinMode(BUTTON, INPUT);
  }
 

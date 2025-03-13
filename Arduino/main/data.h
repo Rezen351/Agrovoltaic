@@ -1,5 +1,6 @@
 #ifndef DATA_H
 #define DATA_H
+
 #include "menu.h"
 #include "io.h"
 
@@ -8,6 +9,8 @@ extern int analogValueA1, analogValueA2;
 extern bool digitalStateS1, digitalStateS2, digitalStateR1, digitalStateR2, digitalStateRR1, digitalStateRR2;
 extern int intervalminON, intervalsecON, intervalminOFF, intervalsecOFF;
 extern int startHour, startMinute, stopHour, stopMinute;
+
+
 // Fungsi untuk menyimpan data ke Preferences
 void saveData() {
   prefs.begin("data", false); // false = Write mode

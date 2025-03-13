@@ -1,11 +1,12 @@
 #ifndef MQTT_H
 #define MQTT_H
-#include <ArduinoJson.h>
+// #include <ArduinoJson.h>
 #include <WiFi.h>
 #include <PubSubClient.h>
+#include <ArduinoJson.h>
 
 // MQTT Broker
-const char* mqtt_server = "broker.hivemq.com";
+const char* mqtt_server = "broker.emqx.io";
 const int mqtt_port = 1883;
 
 // Client untuk WIFI dan MQTT
@@ -14,37 +15,27 @@ PubSubClient client(Client);
 
 // Fungsi callback untuk menangani pesan yang diterima dari MQTT
 void callback(char* topic, byte* payload, unsigned int length) {
-  // Konversi payload ke string
+  Serial.print("Pesan diterima di topik: ");
+  Serial.println(topic);
+
   String message;
   for (int i = 0; i < length; i++) {
     message += (char)payload[i];
   }
-
-  // Parsing JSON
-  StaticJsonDocument<512> doc;
-  DeserializationError error = deserializeJson(doc, message);
-
-  if (error) {
-    Serial.print("Parsing JSON gagal: ");
-    Serial.println(error.f_str());
-    return;
-  }
-  // Memproses JSON berdasarkan topik
-  processMQTTMessage(topic, doc);
+  Serial.print("Isi pesan: ");
+  Serial.println(message);
 }
 
 void reconnect() {
   while (!client.connected()) {
     Serial.print("Menghubungkan ke MQTT...");
-    if (client.connect("ArduinoClient")) {
+    if (client.connect("ESP32")) {
       Serial.println("Terhubung");
       // Subscribe ke topik yang diperlukan
-      client.subscribe("ISOESP/noderedSetting");
+      client.subscribe("AGROVOLTAIC/sensors");            
     } else {
       Serial.print("Gagal, rc=");
       Serial.print(client.state());
-      Serial.println(" Coba lagi dalam 5 detik");
-      delay(5000);
     }
   }
 }

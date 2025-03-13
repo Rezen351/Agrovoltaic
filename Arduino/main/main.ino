@@ -4,6 +4,10 @@
 #include "io.h"
 #include "data.h"
 #include "motor.h"
+#include "sensor.h"
+#include "wifi_setup.h"
+#include "mqtt.h"
+
 
 #define BAUD 115200
 
@@ -13,6 +17,9 @@ const char* deviceModel = "ESP32-DEVKIT-V1";
 unsigned long ppreviousMillis = 0;
 const long interval = 1000;
 int t;
+
+
+
 // Task handles untuk menugaskan fungsi ke core tertentu
 TaskHandle_t TaskCore0;
 TaskHandle_t TaskCore1;
@@ -20,22 +27,20 @@ TaskHandle_t TaskCore1;
 // Fungsi yang dijalankan di core1 (Baca input, sensor, dan tulis output)
 void taskCore1(void *pvParameters) {
   while (true) {
-    writeOutput();
-    readSensor();
-    readIna219();
+    readDHT11();
+    mqtt_loop();
+    vTaskDelay(pdMS_TO_TICKS(1000));
   }
 }
 
 void setup() {
   Serial.begin(BAUD);
   pinSetup();
-  dhtSetup();
   menu_setup();
   inaSetup();
-  setupSensor();
-  wifi_setup();
+  setupDHT();
   mqtt_setup();
-  
+  wifi_setup();
   
   // Menjalankan task pada core1
   xTaskCreatePinnedToCore(
@@ -50,18 +55,14 @@ void setup() {
 }
 
 void loop() {
-  unsigned long currentMillis = millis(); // Mendapatkan waktu saat ini
-    if (currentMillis - ppreviousMillis >= interval) {
-        ppreviousMillis = currentMillis; // Simpan waktu saat ini
-        t++;
-   }
-  String userInput = readSerial();
-
-  if (userInput.length() > 0) {
-        updateState(userInput);
-  }
- readInput();
- menu_loop();
- mqtt_loop();
- 
+unsigned long currentMillis = millis(); // Mendapatkan waktu saat ini
+ if (currentMillis - ppreviousMillis >= interval) {
+   ppreviousMillis = currentMillis; // Simpan waktu saat ini
+   t++;
+ }
+  menu_loop();
+  autoManual();
+  readIna219();
+  writeOutput();
 }
+

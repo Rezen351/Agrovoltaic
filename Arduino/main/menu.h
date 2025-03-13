@@ -6,6 +6,8 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include "data.h"
+#include "sensor.h"
+
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 #define OLED_RESET -1
@@ -19,8 +21,6 @@ bool inSettings = false;
 int settingsPage = 0;
 unsigned long lastUpdate = 0;
 const unsigned long slideshowInterval = 2000;
-int degree = 20;
-int percent = 70;
 
 int intervalminON = 0;
 int intervalsecON = 10;
@@ -40,6 +40,10 @@ int temp_stopHour, temp_stopMinute;
 // Variabel IO
 extern int intervalOn, intervalOff;
 extern bool isON;
+
+// Sensor
+
+extern float hum1, temp1, hum2, temp2;
 
 void checkChange() {
     prefs.begin("data", true); // Mode baca
@@ -90,15 +94,32 @@ void drawSlideshow() {
         display.println("Sensor 1");
         display.setTextSize(2);
         display.setCursor(75, 45);
-        display.println(percent);
+        display.println(hum1);
         display.setCursor(100, 45);
         display.println("%");
         display.setTextSize(2);
         display.setCursor(0, 45);
-        display.println(degree); 
+        display.println(temp1); 
         display.setCursor(25, 45);
         display.println("C");
-    } else if (currentMenu == 1) {
+    } else if (currentMenu == 1){
+      display.setTextSize(1);
+        display.setCursor(75, 20);
+        display.println("17.00");
+        display.setCursor(0, 20);
+        display.println("Sensor 2");
+        display.setTextSize(2);
+        display.setCursor(75, 45);
+        display.println(hum2);
+        display.setCursor(100, 45);
+        display.println("%");
+        display.setTextSize(2);
+        display.setCursor(0, 45);
+        display.println(temp2); 
+        display.setCursor(25, 45);
+        display.println("C");
+    }
+    else if (currentMenu == 2) {
         display.setTextSize(1);
         display.setCursor(0, 20);
         display.println(isON ? "-----Interval ON-----" : "-----Interval OFF----");
@@ -108,7 +129,7 @@ void drawSlideshow() {
         display.print(":");
         if (seconds < 10) display.print("0"); // Tambahkan nol jika <10
         display.println(seconds);
-    } else if (currentMenu == 2) {
+    } else if (currentMenu == 3) {
         display.setTextSize(1);
         display.setCursor(0, 20);
         display.println("-----Last Setting----");
@@ -121,7 +142,7 @@ void drawSlideshow() {
         display.println(intervalsecOFF);
 
        
-    }else if (currentMenu == 3) {
+    }else if (currentMenu == 4) {
         display.setTextSize(1);
         display.setCursor(0, 20);
         display.println("Start Time");
@@ -137,7 +158,7 @@ void drawSlideshow() {
         display.setCursor(85,40);
         display.println("WIB");
     }
-    else if (currentMenu == 4) {
+    else if (currentMenu == 5) {
        display.setTextSize(1);
         display.setCursor(0, 20);
         display.println("Stop Time");
@@ -351,7 +372,7 @@ void menu_loop() {
     handleButtonPress();
     if (!inSettings) {
         if (millis() - lastUpdate > slideshowInterval) {
-            currentMenu = (currentMenu + 1) % 5;
+            currentMenu = (currentMenu + 1) % 6;
             lastUpdate = millis();
             drawSlideshow();
         }
